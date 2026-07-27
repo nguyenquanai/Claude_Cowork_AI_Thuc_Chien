@@ -7,6 +7,7 @@ Domain qua Tenten.vn, hết hạn 26/06/2027.
 
 ## Cấu trúc file
 - index.html — toàn bộ trang chủ (1 file, inline CSS + JS)
+- gioi-thieu.html — trang "Về tôi" giới thiệu tác giả Nguyễn Quân (đã xong, xem mục Đã hoàn thành)
 - assets/ — ảnh bìa, favicon
 - CNAME — domain config, KHÔNG XÓA/SỬA trừ khi đổi domain
 
@@ -24,9 +25,9 @@ Combo 3 tập: 399.000đ (gói chủ lực, tiết kiệm 118k) | Bản đầy �
 - GA4 đã chạy thật (G-LSDVNKJLVM), UTM tracking cho Facebook/Zalo/Google/TikTok Ads
 - OG image đã sửa thành URL tuyệt đối (https://nguyenquanai.vn/assets/og-image.jpg)
 - Footer đã điền đủ thông tin liên hệ thật (không còn placeholder)
+- Trang `gioi-thieu.html` — trang "Về tôi" giới thiệu tác giả Nguyễn Quân, nội dung lấy cảm hứng từ https://nguyen-van-quan-udolx7d.gamma.site/ (học vấn, kinh nghiệm CNC Vina/APS/BKMECH, định hướng AI Agent & Automation, thế mạnh). Đã đồng bộ màu/font với trang chủ, có scroll reveal effect và timeline card nền cam nổi 3D nhẹ. Đã thêm tab "Giới thiệu" vào nav (desktop + mobile)
 
 ## Đang dở / sắp làm
-- Đang xây trang mới `gioi-thieu.html` — trang "Về tôi" giới thiệu tác giả Nguyễn Quân, nội dung lấy cảm hứng từ https://nguyen-van-quan-udolx7d.gamma.site/ (học vấn, kinh nghiệm CNC Vina/APS/BKMECH, định hướng AI Agent & Automation, thế mạnh). Cần đồng bộ 100% màu/font với trang chủ (đọc :root và <header> trong index.html để lấy đúng token). Cần thêm tab "Giới thiệu" vào nav (desktop + mobile).
 - Facebook Pixel còn để placeholder 'FB_PIXEL_ID', chưa cài ID thật — chỉ cần khi chạy Facebook Ads
 
 ## Backend / hệ thống ngoài repo (KHÔNG nằm trong file này, chỉ tham khảo)
